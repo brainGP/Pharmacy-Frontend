@@ -1,0 +1,95 @@
+#titleScreen{
+    padding:80px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+#titleScreen h1{
+    font-size:64px;
+    font-weight: medium;
+    margin:auto
+}
+#titleScreen b{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:64px;
+    font-weight: bold;
+    color:rgba(26, 102, 26, 1);
+    
+}
+#titleScreen h2{
+    color:rgba(32, 144, 255, 1);
+    font-size: 20px;
+    font-weight: bold;
+    margin:auto;
+}
+
+#titleSearchBar{
+    display: flex;
+    align-items: center;
+    gap:14px;
+    width:842px;
+    height:48px;
+    padding:8px;
+    border-radius: 20px;
+    border:1px solid;
+}
+#iconText{
+    display: flex;
+    align-items: center;
+    gap:14px;
+    width:746px;
+    height:48px;
+    display:flex;
+    align-items: center;
+}
+#titleSearchBarText{  
+    width:400px;
+    height:48px;
+    border:0px;
+    outline:none;
+    font-size: 16px;
+}
+#searchIcon{
+    border:0px;
+    background-color: #fff;
+    color: rgba(114, 116, 122, 1);
+    margin-left:12px;
+    font-size: 20px;
+}
+#titleSearchBtn{
+    align-content: center;
+    text-align: center;
+    width:96px;
+    height:48px;
+    border-radius: 20px;
+    color:#fff;
+    background-color: rgba(26, 102, 26, 1);
+    font-size: 16px;
+}
+#titleSearchBtn:hover{
+    background-color: rgba(26, 102, 26, 0.8);
+    cursor: pointer;
+}
+#titleSearchBtn:active{
+    background-color: rgba(26, 102, 26, 0.6)
+}
+
+#titleMenu{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    gap:24px;
+}
+#titleMenu p{
+    display: flex;
+    align-items: center;
+    padding:0 24px;
+    height:32px;
+    border-radius:20px;
+    color:#fff;
+    background-color: rgba(32, 144, 255, 1);
+    font-size: 12px;
+    margin:0px;
+}
