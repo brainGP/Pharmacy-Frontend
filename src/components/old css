@@ -1,95 +1,79 @@
-#titleScreen{
-    padding:80px;
+#easy{
+    display: flex;
+    align-items: center;
+    gap:32px;
+    padding:32px 80px;
+}
+#nearbyPharmacies{
+    width:624px;
     display: flex;
     flex-direction: column;
-    gap:40px;
+    gap:20px;
 }
-#titleScreen h1{
-    font-size:64px;
-    font-weight: medium;
-    margin:auto
-}
-#titleScreen b{
-    display:flex;
-    justify-content: center;
+#map{
+    width:624px;
+    display: flex;
     align-items: center;
-    font-size:64px;
-    font-weight: bold;
+    flex-direction: column;
+    gap:20px;
+}
+#map img{
+    width:624px;
+    height:479px;
+    object-fit: fill;
+}
+.titleCard{
+    width:624px;
+    display:flex;
+    align-items: center;
+}
+.link{
+    font-size: 16px;
     color:rgba(26, 102, 26, 1);
-    
+    margin-left: auto;
 }
-#titleScreen h2{
-    color:rgba(32, 144, 255, 1);
-    font-size: 20px;
-    font-weight: bold;
-    margin:auto;
+.titleCard h4{
+    margin:0;
+    font-size: 32px;
+    font-weight:bold;
 }
-
-#titleSearchBar{
-    display: flex;
-    align-items: center;
-    gap:14px;
-    width:842px;
-    height:48px;
-    padding:8px;
-    border-radius: 20px;
+.pharmacyInfo{
     border:1px solid;
-}
-#iconText{
-    display: flex;
-    align-items: center;
-    gap:14px;
-    width:746px;
-    height:48px;
-    display:flex;
-    align-items: center;
-}
-#titleSearchBarText{  
-    width:400px;
-    height:48px;
-    border:0px;
-    outline:none;
-    font-size: 16px;
-}
-#searchIcon{
-    border:0px;
-    background-color: #fff;
-    color: rgba(114, 116, 122, 1);
-    margin-left:12px;
-    font-size: 20px;
-}
-#titleSearchBtn{
-    align-content: center;
-    text-align: center;
-    width:96px;
-    height:48px;
-    border-radius: 20px;
-    color:#fff;
-    background-color: rgba(26, 102, 26, 1);
-    font-size: 16px;
-}
-#titleSearchBtn:hover{
-    background-color: rgba(26, 102, 26, 0.8);
-    cursor: pointer;
-}
-#titleSearchBtn:active{
-    background-color: rgba(26, 102, 26, 0.6)
-}
-
-#titleMenu{
-    display: flex;
-    align-items: center;
-    margin:auto;
-    gap:24px;
-}
-#titleMenu p{
-    display: flex;
-    align-items: center;
-    padding:0 24px;
-    height:32px;
     border-radius:20px;
-    color:#fff;
-    background-color: rgba(32, 144, 255, 1);
-    font-size: 12px;
-    margin:0px;
+    border-color:rgba(178, 204, 178, 1);
+    width:584px;
+    max-height:108px;
+    display: flex;
+    align-items: center;
+    padding:20px;
+    gap:22px;
+}
+.pharmacyInfo img{
+    width:108px;
+    height:108px;
+    border-radius:8px;
+}
+.infoText{
+    display: flex;
+    flex-direction: column;
+    gap:10px;    
+    margin:0;
+    color:rgba(114, 116, 122, 1);
+}
+.pharmacyName{
+    font-size:26px;
+    font-weight: bold;
+    color:rgba(53, 57, 65, 1);
+    margin:0;
+}
+.infoText h5{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin:0;
+}
+.infoText i{
+    font-size: 24px;
+    margin-right:10px;
 }
