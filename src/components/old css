@@ -1,79 +1,93 @@
-#easy{
-    display: flex;
-    align-items: center;
-    gap:32px;
-    padding:32px 80px;
-}
-#nearbyPharmacies{
-    width:624px;
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-}
-#map{
-    width:624px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap:20px;
-}
-#map img{
-    width:624px;
-    height:479px;
-    object-fit: fill;
-}
-.titleCard{
-    width:624px;
+.displayArea{
     display:flex;
     align-items: center;
+    gap:32px;
+    margin:16px 80px;
 }
-.link{
-    font-size: 16px;
-    color:rgba(26, 102, 26, 1);
-    margin-left: auto;
+.products{
+    width:272px;
+    height:340px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color:rgba(229, 238, 229, 1);
+    padding:24px;
 }
-.titleCard h4{
-    margin:0;
-    font-size: 32px;
-    font-weight:bold;
+.products img{
+    display:flex;
+    margin:auto;
+    width:186px;
+    height:186px;
+    flex:1 0 100%;
+    object-fit: fill;
+    border-radius: 20px;
 }
-.pharmacyInfo{
-    border:1px solid;
-    border-radius:20px;
-    border-color:rgba(178, 204, 178, 1);
-    width:584px;
-    max-height:108px;
-    display: flex;
-    align-items: center;
-    padding:20px;
-    gap:22px;
-}
-.pharmacyInfo img{
-    width:108px;
-    height:108px;
-    border-radius:8px;
-}
-.infoText{
+.productText{
     display: flex;
     flex-direction: column;
-    gap:10px;    
-    margin:0;
+    color:black;
+    max-height: 112px;
+    width:248px;
+
+}
+.priceDistance{
+    color: rgba(0, 85, 0, 1);
+    display: flex;
+}
+.medName, .price{
+    font-size: 16px;
+    font-weight: bold;
+}
+.medType{
+    font-size: 12px;
     color:rgba(114, 116, 122, 1);
 }
-.pharmacyName{
-    font-size:26px;
-    font-weight: bold;
-    color:rgba(53, 57, 65, 1);
-    margin:0;
+.distance{
+    margin-left: auto;
+    margin-bottom:0px;
 }
-.infoText h5{
+.price{
+    margin-bottom:0px;
+}
+#advantage{
+    margin:80px;
+}
+#advantage h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin:10px;
+}
+#advantageColumn{
+    margin-top:35px;
+    display:flex;
+    gap:auto;
+    text-align: center;
+}
+#advantageColumn h4{
+    margin:0;
+    font-size:20px;
+}
+#advantageColumn h5{
+    margin:0;
+    font-size:14px;
+}
+#advantageColumn span{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width:426px;
+    margin:10px 0;
+}
+#advantageColumn span i{
     display: flex;
     align-items: center;
-    font-size: 16px;
-    font-weight: 600;
-    margin:0;
-}
-.infoText i{
-    font-size: 24px;
-    margin-right:10px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 32px;
+    width:64px;
+    height:64px;
+    background-color: rgba(24, 115, 204, 0.1);
+    color:rgba(0, 85, 0, 1);
+    border-radius:20px;
 }
