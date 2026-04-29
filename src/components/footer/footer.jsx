@@ -1,9 +1,9 @@
 import React from 'react'
-import contact from '../footer/contact'
+import Contact from './contact'
 function Footer(){
     return(
-        <div class="flex">
-
+        <div class="flex bg-[#304A2F]">
+            <Contact></Contact>
         </div>
     )
 }
