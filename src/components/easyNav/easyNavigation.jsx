@@ -1,6 +1,6 @@
 import React from 'react'
-import PharmacyInfo from '../components/pharmacyInfo'
-import Map from '../components/map'
+import PharmacyInfo from './pharmacyInfo'
+import Map from './map'
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 function EasyNavigation(){
