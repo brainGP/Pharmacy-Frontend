@@ -10,10 +10,10 @@ function DisplayArea() {
             <h5 class="text-[16px] text-[#1A661A] ml-auto flex items-center">Дэлгэрэнгүй<MdKeyboardArrowRight class="text-[24px]"/></h5>
         </div>
         <div class="flex gap-[32px] items-center">
-            <ProductCard></ProductCard>
-            <ProductCard></ProductCard>
-            <ProductCard></ProductCard>
-            <ProductCard></ProductCard>     
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>
+            <ProductCard/>    
         </div>
     </div>
   )

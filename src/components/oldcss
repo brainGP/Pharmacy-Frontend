@@ -1,0 +1,61 @@
+.ad{
+    display:flex;
+    gap:20px;
+    margin:32px 80px;
+}
+.adBig{
+    width:600px;
+    min-height:650px;
+    border-radius: 14px;
+    background-color: rgba(241, 250, 254, 1);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+.adSmallArea{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.adSmall{
+    display: flex;
+    align-items: center;
+    height:max-content;
+    background-color: rgba(253, 247, 232, 1);
+    border-radius:14px;
+    padding:20px;
+}
+.adText{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.sales{
+    background-color:#28A745;
+    border-radius:8px;  
+    font-size:20px;
+    font-weight: medium;
+    margin-right: auto;
+    color:white;
+    padding:6px 16px;   
+    align-content: left;
+}
+.adTitle{
+    font-size:36px;
+    font-weight: bold;
+}
+.adInfo{
+    font-size: 32px;
+    font-weight: 600;
+}
+.adPriceOld{
+    font-size:16px;
+    font-weight:500;
+    color:rgba(53, 57, 65, 1);
+    text-decoration: line-through;
+}
+.adPriceNew{
+    font-size:32px;
+    font-weight:800;
+}
