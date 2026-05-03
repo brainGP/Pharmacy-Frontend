@@ -4,7 +4,11 @@ import TitleMenu from '../components/titleMenu'
 import ProductCard from '../components/displayArea/productCard'
 import AdBig from '../components/ad/adBig'
 import AdSmall from '../components/ad/adSmall'
+import NewsHighlight from '../components/news/newsHighlight'
 import Footer from '../components/footer/footer'
+
+import { MdKeyboardArrowRight } from "react-icons/md";
+
 function Second(){
     return(
         <div>
@@ -39,6 +43,10 @@ function Second(){
                 <ProductCard/>
                 <ProductCard/>    
             </div>
+            <div class="flex gap-[32px] items-center px-[80px] py-[32px]">
+                <NewsHighlight/>
+            </div>
+            
             <Footer/>
         </div>
     )
